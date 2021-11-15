@@ -3,7 +3,7 @@ package com.homework.number_2.task_2;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class WorkWithArray {
+public class WorkWithArrays {
     public static void toFillingArray(int[] array) {
         Random random = new Random();
 

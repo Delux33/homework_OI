@@ -5,23 +5,23 @@ public class Task_2 {
     public static void main(String[] args) {
         int[] array = new int[5];
 
-        WorkWithArray.toFillingArray(array);
+        WorkWithArrays.toFillingArray(array);
 
         System.out.print("Array elements: ");
-        WorkWithArray.toString(array);
+        WorkWithArrays.toString(array);
 
-        int[] evenArray = WorkWithArray.separationToEven(array);
-        int[] oddArray = WorkWithArray.separationToOdd(array);
+        int[] evenArray = WorkWithArrays.separationToEven(array);
+        int[] oddArray = WorkWithArrays.separationToOdd(array);
 
         System.out.print("\nEven array elements: ");
-        WorkWithArray.toString(evenArray);
+        WorkWithArrays.toString(evenArray);
 
         System.out.print("\nOdd array elements: ");
-        WorkWithArray.toString(oddArray);
+        WorkWithArrays.toString(oddArray);
 
         System.out.println("\nAverage value from even array: " +
-                                     WorkWithArray.averageValue(evenArray));
+                                     WorkWithArrays.averageValue(evenArray));
         System.out.print("Average value from odd array: " +
-                                     WorkWithArray.averageValue(oddArray));
+                                     WorkWithArrays.averageValue(oddArray));
     }
 }
