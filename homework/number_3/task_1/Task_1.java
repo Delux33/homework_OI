@@ -27,7 +27,7 @@ public class Task_1 {
 
         for (int i = 0; i < person.length; i++) {
             person[i] = new Person(firstName[random.nextInt(firstName.length)],
-                    lastName[random.nextInt(lastName.length)]);
+                                    lastName[random.nextInt(lastName.length)]);
         }
 
         for (int i = 0; i < person.length; i++) {
