@@ -1,5 +1,5 @@
 # Домашнее задание №1 
-[Задание 1. Начало](https://github.com/Delux33/Homework_OI/tree/Homework_OI/homework/number_1)
+[Задание 1. Начало](../homework/number_1)
 
 # Домашнее задание №2
 [Задание 1. Случайности складываются](https://github.com/Delux33/Homework_OI/tree/Homework_OI/homework/number_2/task_1)
