@@ -8,7 +8,7 @@ public class Task_1 {
                                              new Fruit().getRandomFruit(),
                                              new Fruit().getRandomFruit() };
 
-        for(Fruit randomFruit : randomFruits) {
+        for (Fruit randomFruit : randomFruits) {
             System.out.println(randomFruit.toString());
         }
     }
